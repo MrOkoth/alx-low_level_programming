@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers - Ptint numbers
+ * print_numbers - print numbers
  *
  * Return: void
  */

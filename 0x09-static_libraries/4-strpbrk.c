@@ -1,25 +1,25 @@
 #include "main.h"
-
 /**
- * _strpbrk - Searches a string
- * @s: p
- * @accept: p
- * Return: A pointer
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-	int index;
+	int k;
+
 
 	while (*s)
 	{
-		for (index = 0 ; accept[index] ; index++)
+		for (k = 0; accept[k]; k++)
 		{
-			if (*s == accept[index])
-				return (s);
+		if (*s == accept[k])
+		return (s);
 		}
-
-		s++;
+	s++;
 	}
-	return ('\0');
+
+
+return ('\0');
 }
